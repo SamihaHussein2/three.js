@@ -24,7 +24,7 @@
 		var geometry = new THREE.BoxGeometry (1,1,1); //width, depth and height 
 
 		//creating a material and assigning it a color 
-		var material = new THREE.MeshBasicMaterial({ color: 555555, wireframe: true }); //false shows a "square", true shows the outline of the cube
+		var material = new THREE.MeshBasicMaterial({ color: 555555, wireframe: true }); //false shows a "square" (without rotation), true shows the outline of the cube
 
 		var cube = new THREE.Mesh(geometry, material); 
 		scene.add(cube);
